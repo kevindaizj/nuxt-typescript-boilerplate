@@ -1,0 +1,123 @@
+.main-content {
+    padding-top: 80px;
+    width: 100%;
+}
+
+
+.common-section {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    // background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    .section-title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 40px;
+        padding: 0 15px;
+        color: #1f1f1f;
+        text-align: center;
+    }
+    .section-title:after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100px;
+        background-color: #F39800;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        margin-top: 66px;
+    }
+}
+
+
+.common-page-header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    .common-page-header-wrapper {
+        max-width: 1116px;
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
+        overflow: hidden;
+        .title {
+            color: #1f1f1f;
+            font-size: 44px;
+            line-height: 56px;
+            font-weight: bold;
+            margin-bottom: 10px
+        }
+        .sub-title {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px;
+            a {
+                color: #f39800;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .common-page-header .common-page-header-wrapper {
+        max-width: 88%;
+        padding: 30px 0;
+        .title {
+            font-size: 26px;
+            line-height: 34px;
+        }
+    }
+}
+
+.common-page-content {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    .common-page-content-wrapper {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 50px 15px;
+        overflow: hidden;
+        .txt-img-content {
+            max-width: 66.66%;
+            margin: 0 auto;
+            padding: 0 15px;
+            text-align: center;
+            .parag {
+                font-size: 16.8px;
+                font-weight: 400;
+                line-height: 28px;
+                margin-bottom: 14px;
+            }
+            .img-box {
+                max-width: 400px;
+                margin: 10px auto 0;
+                img {
+                    width: 100%;
+                    vertical-align: middle;
+                    border-style: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .common-page-content .common-page-content-wrapper {
+        max-width: 96%;
+        padding: 30px 0;
+        .txt-img-content {
+            max-width: 98%;
+            .parag {
+                font-size: 15px;
+                line-height: 26px;
+            }
+        }
+    }
+}

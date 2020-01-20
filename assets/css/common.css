@@ -1,0 +1,62 @@
+html,body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #F39800;
+    color: #fff;
+}
+::-moz-selection {
+    background: #F39800;
+    color: #fff;
+}
+
+img {
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+.text-success {
+    color: #2ED06E !important;
+}
+
+.text-danger {
+    color: #dc3545!important;
+}
+
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 500px;
+    }
+}
+
+.modal-open {
+    padding-right: 0 !important;
+    overflow: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+
+

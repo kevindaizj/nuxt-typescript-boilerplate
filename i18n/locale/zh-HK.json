@@ -1,0 +1,32 @@
+{
+    "uiv.modal.ok": "確定",
+    "uiv.modal.cancel": "取消",
+    "homePage": "主頁",
+    "browserTab.titleChunk": "國際匯款｜在線匯款｜線上支付",
+    "header.Download": "下載應用",
+    "GlobalRemittance": "國際匯款",
+    "RatesAndServices": "匯率及服務",
+    "About": "關於我們",
+    "AboutUs": "關於我們",
+    "FinTech": "金融科技",
+    "Compliance": "循法合規",
+    "HelpCenter": "幫助中心",
+    "HelpCenter.Title": "幫助中心",
+    "HelpCenter.SubTitle.Pre": "如果您仍需要了解更多信息，請隨時",
+    "Blog": "博客",
+    "Blog.Title": "新聞中心",
+    "main.slogan": "安全快捷的國際匯款",
+    "iosDownload": "IOS下載",
+    "androidDownload": "Android下載",
+    "sendTitle": "匯款金額",
+    "receiptTitle": "收款金額",
+    "exceedAlertPre": "超過限額：",
+    "getStarted": "立即开始",
+    "savePre": "比一般银行节省",
+    "Fee": "手續費",
+    "close": "關閉",
+    "downloadTheApp": "下載應用程式",
+    "atLeast": "至少"
+    
+
+}

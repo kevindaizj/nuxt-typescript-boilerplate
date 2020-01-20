@@ -1,0 +1,36 @@
+{
+    "uiv.modal.ok": "确定",
+    "uiv.modal.cancel": "取消",
+    "homePage": "主页",
+    "browserTab.titleChunk": "国际汇款｜在线汇款｜线上支付",
+    "header.Download": "下载应用",
+    "GlobalRemittance": "国际汇款",
+    "RatesAndServices": "汇率及服务",
+    "About": "关于我们",
+    "AboutUs": "关于我们",
+    "FinTech": "金融科技",
+    "Compliance": "循法合规",
+    "HelpCenter": "帮助中心",
+    "HelpCenter.Title": "帮助中心",
+    "HelpCenter.SubTitle.Pre": "如果您仍需要了解更多信息，请随时",
+    "Blog": "博客",
+    "Blog.Title": "新闻中心",
+    "iosDownload": "IOS下载",
+    "androidDownload": "Android下载",
+    "sendTitle": "汇款金额",
+    "receiptTitle": "收款金额",
+    "exceedAlertPre": "超过限额：",
+    "getStarted": "立即开始",
+    "savePre": "比一般银行节省",
+    "Fee": "手续费",
+    "close": "关闭",
+    "downloadTheApp": "下载应用程式",
+    "atLeast": "至少",
+    "ComparedTypicalBank": "比较一般银行",
+    "Sending": "汇款",
+    "Rate": "汇率"
+   
+
+
+
+}

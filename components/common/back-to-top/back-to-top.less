@@ -1,0 +1,30 @@
+.custom-back-to-top {
+    border-radius: 5px;
+    background-color: rgb(1,14,27);
+    background-color: rgba(1, 14, 27, .7);
+    position: fixed;
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    right: 24px;
+    bottom: 24px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    opacity: 0;
+    z-index: -1;
+    cursor: pointer;
+    &:hover {
+        opacity: 1;
+        background-color: rgb(1,14,27);
+        background-color: rgba(1, 14, 27, .9);
+    }
+}
+
+.custom-back-to-top.cbtt-visible {
+    opacity: .8;
+    z-index: 4;
+    transition: all .4s ease-in;
+}
